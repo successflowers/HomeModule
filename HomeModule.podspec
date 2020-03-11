@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
                     APP首页模块
                    DESC
 
-  s.homepage     = "https://git.coding.net/hans_f/HomeModule.git"
+  s.homepage     = "https://github.com/successflowers/HomeModule"
 
   s.license      = "MIT (HomeModule)"
 
-  s.author             = { "hans" => "baoshanf@163.com" }
+  s.author             = { "successflower" => "success_flower@sina.com" }
 
 
   # s.platform     = :ios
@@ -35,19 +35,19 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://git.coding.net/hans_f/HomeModule.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/successflowers/HomeModule", :tag => "#{s.version}" }
 
 
   s.source_files  = "HomeModule/**/**/**/*.{h,m}"
   s.exclude_files = "HomeModule/main.m","HomeModule/AppDelegate.{h,m}"
-#s.resource = 'HomeModule/Assets.xcassets'
+  s.resource = 'HomeModule/Assets.xcassets'
 
-#s.public_header_files = 'HomeModule/**/**/**/*.h'
-s.prefix_header_file = 'HomeModule/HomePrefixHeader.pch'
+    #s.public_header_files = 'HomeModule/**/**/**/*.h'
+    s.prefix_header_file = 'HomeModule/HomePrefixHeader.pch'
 
 
 
- s.dependency  "SDCycleScrollView"
+s.dependency  "SDCycleScrollView"
  s.dependency "HKHttpManager"
  s.dependency "LazyScroll"
  s.dependency "Masonry"
