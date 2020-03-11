@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+target 'HomeModule' do
+pod 'HKHttpManager'
+pod 'SDCycleScrollView'
+pod 'LazyScroll'
+pod 'Masonry'
+pod 'ALRouter'
+end
